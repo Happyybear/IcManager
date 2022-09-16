@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- VerifyCodeEditText-->
+    <dimen name="default_vcet_width">21dp</dimen>
+    <dimen name="default_vcet_pwd_radius">5dp</dimen>
+    <dimen name="default_vcet_text_size">16sp</dimen>
+
+    <!-- EditText Layout-->
+    <dimen name="default_edit_text_Layout_text_size">16sp</dimen>
+    <dimen name="default_edit_text_Layout_text_margin_start">8dp</dimen>
+    <dimen name="default_edit_text_Layout_margin_start">8dp</dimen>
+    <dimen name="default_edit_text_Layout_text_margin_end">15dp</dimen>
+        <!-- left text 固定长度 100dp   -->
+    <dimen name="default_edit_text_Layout_text_left_text_width">100dp</dimen>
+    <dimen name="default_edit_text_Layout_text_bottom_line_height">1dp</dimen>
+    <dimen name="default_edit_text_Layout_text_bottom_line_padding">12dp</dimen>
+    <dimen name="config_margin_10dp">10dp</dimen>
+    <dimen name="config_margin_16dp">16dp</dimen>
+    <dimen name="config_margin_8dp">8dp</dimen>
+</resources>

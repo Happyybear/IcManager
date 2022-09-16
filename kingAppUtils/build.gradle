@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply from: "../basic.gradle"
+android {
+
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+    buildTypes{
+        release {
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+}
+
+def apiDependencies = rootProject.ext.api
+def apiFileDependencies = rootProject.ext.apiFileDependencies
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // 处理所有的 aar 依赖
+    apiFileDependencies.each { k, v -> api files(v)}
+
+    apiDependencies.each { k, v -> api v }
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

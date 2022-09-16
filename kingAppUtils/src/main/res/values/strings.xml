@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug_activity_databinding_warning">警惕使用</string>
+    <string name="network_not_good" >当前网络较差</string>
+    <string name="debug_fragment_databinding_warning" >警惕使用</string>
+    <string name="verifyCode">验证码</string>
+    <string name="pwdHint" >请填写密码</string>
+    <string name="verifyCodeButtonTitle" >获取验证码</string>
+    <string name="pwdLoginTitle" >密码登录</string>
+    <string name="verifyCodeLoginTitle" >短信验证码登录</string>
+    <string name="verifyCodeHit" > 请填写验证码</string>
+</resources>

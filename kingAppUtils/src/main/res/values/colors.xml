@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#0000</color>
+
+    <color name="blackgrey">#ff0a0a0a</color>
+    <color name="black_gray">#ff202020</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray2">#ff606060</color>
+    <color name="dark_gray">#ff838486</color>
+    <color name="green_lite">#ff7db00d</color>
+    <color name="yellow_time">#ffdbae39</color>
+    <color name="hintcolor">#00000000</color>
+    <color name="gd_action_bar_tint">#ffa8c24e</color>
+    <color name="gd_action_bar_divider_tint">#77ffffff</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+    <color name="about_phone_text_color_blue">#00bdf1</color>
+    <color name="wx_theme_green">#07c160</color>
+    <color name="edittext_line_color">#DCDCDC</color>
+
+    <color name="color_content_background">#F0F0F0</color>
+    <color name="color_primary">#2c89f3</color>
+
+    <color name="color_transparent">#00000000</color>
+
+</resources>
